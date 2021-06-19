@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room</title>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script> 
+    </head>
+    <body>
+        <a-scene>
+            <a-entity>
+                <a-camera position = '-10 5 42' rotation = '0 0 0'></a-camera>
+            </a-entity>
+            <a-plane position = '-8.9 0 0' width = 52 height = 50 src = 'data:image/jpeg;base64,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' rotation = '-90 0 0'></a-plane>
+            <a-plane position = '-8.9 10 -25' width = 52 height = 20 src = 'https://walldorado.com/image/catalog/products/standard%20murals/stones/light-stone-wall-texture-photo-wallpaper-mural-(11974ve).jpg' rotation = '0 0 0'></a-plane>
+            <a-plane position = '-35 10 0' width = 50 height = 20 src = 'https://media.istockphoto.com/photos/white-wall-texture-background-from-down-side-shine-bright-light-picture-id612630468' rotation = '0 90 0'></a-plane>
+            <a-plane position = '17 10 0' width = 50 height = 20 src = 'https://media.istockphoto.com/photos/white-wall-texture-background-from-down-side-shine-bright-light-picture-id612630468' rotation = '0 -90 0'></a-plane>
+            <a-plane position = '-8.9 20 0' width = 52 height = 50 src = 'https://i.pinimg.com/originals/7c/51/0a/7c510af12b40ff3d635b48cf7118f9b7.png' rotation = '90 0 0'></a-plane>
+            <a-plane position = '-25 5 25' width = 20 height = 10 src = 'https://farmfoodfamily.com/wp-content/uploads/2021/01/10-rosebud-wall-texture.jpg' rotation = '0 0 0'></a-plane>
+            <a-plane position = '7.1 5 25' width = 20 height = 10 src = 'https://farmfoodfamily.com/wp-content/uploads/2021/01/10-rosebud-wall-texture.jpg' rotation = '0 0 0'></a-plane>
+            <a-plane position = '-8.9 15 25' width = 52 height = 10 src = 'https://farmfoodfamily.com/wp-content/uploads/2021/01/10-rosebud-wall-texture.jpg' rotation = '0 0 0'></a-plane>
+            
+            <!--SOFA-->
+            <a-box  position = '12.3 3 0' width = 23 height = 5 rotation = '20 90 0' src = 'https://thumbs.dreamstime.com/b/light-pink-leather-sofa-texture-background-buttons-214564423.jpg'></a-box> 
+            <a-box  position = '10 1 -2.5' depth = '2' width = 20 height = 5 rotation = '90 90 0' src = 'https://thumbs.dreamstime.com/b/light-pink-leather-sofa-texture-background-buttons-214564423.jpg'></a-box>
+            <a-box  position = '7.5 1 10' depth = '2' width = 10 height = 5 rotation = '90 0 0' src = 'https://thumbs.dreamstime.com/b/light-pink-leather-sofa-texture-background-buttons-214564423.jpg'></a-box>
+            
+            <!--table-->
+            <a-box position = '-29 5 -10' width = 10 height = 10 rotation = '90 0 0' src = 'https://i.pinimg.com/originals/2a/48/14/2a481410bfd8b35d1ba52781133e3951.jpg'></a-box>
+            <a-box position = '2 2.2 -2' depth = '0.5' width = 5 height = 12 rotation = '90 0 0' src = 'https://live.staticflickr.com/6/8432331_e55a2a25f5_n.jpg'></a-box>
+            <a-cylinder position = '2 1.3 -2' radius = '2' height = '2' color = 'brown'></a-cylinder>
+            
+            <!--chair-->
+            <a-box position = '-29 1 -19' color="tomato" depth="4" height="4" width="4"></a-box>
+            <a-box position = '-29 1 -2' color="tomato" depth="4" height="4" width="4"></a-box>
+            <a-box position = '-20 1 -10' color="tomato" depth="4" height="4" width="4"></a-box>
+            <a-box position = '4 1 -13' color="tomato" depth="4" height="2" width="4"></a-box>
+            <a-box position = '-1.5 1 -13' color="tomato" depth="4" height="2" width="4"></a-box>
+
+            <!--tv-->
+            <a-box position = '1.5 9 -25' src = 'https://cdn.mos.cms.futurecdn.net/arb8jmP2F4XFMiT7S66zUQ.jpg' depth = '0.1' width = '17' height = '9'></a-box>
+
+            <!--plant-->
+            <a-box position = '-29 5 17' height = '10' depth = '5' width = '5' src = 'https://www.costafarms.com/images/SlideShow/1-Costa-Farms-Majesty-Palm-Houseplant.jpg'></a-box>
+            <a-box position = '14 5 20' height = '10' depth = '5' width = '5' src = 'https://www.costafarms.com/images/SlideShow/1-Costa-Farms-Majesty-Palm-Houseplant.jpg'></a-box>
+            <a-box position = '14 5 -20' height = '10' depth = '5' width = '5' src = 'https://www.costafarms.com/images/SlideShow/1-Costa-Farms-Majesty-Palm-Houseplant.jpg'></a-box>
+
+            <a-sky color = 'lightblue'/>
+        </a-scene>
+    </body>
+</html>
